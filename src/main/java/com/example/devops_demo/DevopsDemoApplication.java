@@ -16,6 +16,6 @@ public class DevopsDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello! DevOps CI/CD pipeline is working.";
+		return "Hello! My first automatic CI/CD deployment is successful.";
 	}
 }
